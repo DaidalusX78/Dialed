@@ -80,9 +80,7 @@ Dialed/
 ├── Dialed initial logo.png # Project brand asset
 ├── README.md               # Project documentation
 ├── TODOLIST.md             # (Ignored) Development task tracking & log
-├── dialed_v0.02.html       # v0.02 release snapshot
-├── dialed_v0.03.html       # v0.03 release snapshot
-└── index.html              # Canonical entry point for GitHub Pages
+└── index.html              # Main application (GitHub Pages ready)
 ```
 
 ## Release History
