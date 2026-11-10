@@ -1,0 +1,14 @@
+# Personal task lists / notes
+TODOLIST.md
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
