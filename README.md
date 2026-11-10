@@ -1,15 +1,12 @@
 # Dialed 📻
 
 <p align="center">
-  <img src="Dialed%20initial%20logo.png" alt="Dialed Logo" width="220" />
-</p>
-
-<p align="center">
   <b>A sleek, lightweight web radio player bridging live broadcast audio and on-demand streaming discovery.</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-v0.03-ff2a44.svg" alt="Version" />
+  <img src="https://img.shields.io/badge/creator-Marc%20Bailey-black.svg" alt="Creator" />
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
   <img src="https://img.shields.io/badge/dependencies-0-brightgreen.svg" alt="Zero Dependencies" />
 </p>
@@ -76,12 +73,15 @@ Because Dialed is completely self-contained, no installation or compilation is n
 
 ```text
 Dialed/
-├── .gitignore              # Ignored files (local notes, OS files)
-├── Dialed initial logo.png # Project brand asset
+├── .gitignore              # Ignored files (local notes, WIP design assets)
 ├── README.md               # Project documentation
 ├── TODOLIST.md             # (Ignored) Development task tracking & log
 └── index.html              # Main application (GitHub Pages ready)
 ```
+
+## Author & Credits
+
+Designed and developed by **Marc Bailey** ([@DaidalusX78](https://github.com/DaidalusX78)).
 
 ## Release History
 

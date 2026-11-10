@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Marc Bailey" />
   <title>Dialed - Chilli FM 91.5 Marbella</title>
-  <link rel="icon" type="image/png" href="Dialed%20initial%20logo.png" />
+  <link rel="icon" type="image/png" href="images/Dialed%20initial%20logo.png" />
   <style>
     :root {
       --primary: #ff2a44;
@@ -398,7 +399,7 @@
 
     <!-- Cover Art -->
     <div class="art-container">
-      <img id="albumArt" class="art-image" src="Dialed%20initial%20logo.png" alt="Station Artwork" />
+      <img id="albumArt" class="art-image" src="images/Dialed%20initial%20logo.png" alt="Station Artwork" onerror="this.src=FALLBACK_ARTWORK" />
     </div>
 
     <!-- Now Playing Box -->
@@ -461,15 +462,16 @@
     </div>
 
     <div class="footer">
-      Dialed v0.03 • Chilli FM Costa del Sol
+      Dialed v0.03 • Created by Marc Bailey • Chilli FM Costa del Sol
     </div>
   </div>
 
   <script>
+    const FALLBACK_ARTWORK = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%23121217'/%3E%3Ccircle cx='100' cy='100' r='50' fill='none' stroke='%23ff2a44' stroke-width='6' opacity='0.3'/%3E%3Ccircle cx='100' cy='100' r='30' fill='%23ff2a44' opacity='0.8'/%3E%3Cpath d='M75 160 Q100 135 125 160' fill='none' stroke='%2395959e' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E";
     const DEFAULT_STREAM_URL = "https://stream.aiir.com/gzsyvjpqs4svv";
     const METADATA_HISTORY_URL = "https://streaming-api.aiir.com/mounts/metadata/history/gzsyvjpqs4svv/?limit=1";
     const METADATA_LIVE_URL = "https://streaming-api.aiir.com/mounts/metadata/subscribe/gzsyvjpqs4svv";
-    const DEFAULT_ARTWORK = "Dialed%20initial%20logo.png";
+    const DEFAULT_ARTWORK = "images/Dialed%20initial%20logo.png";
 
     const player = document.getElementById('radioPlayer');
     const playBtn = document.getElementById('playBtn');
